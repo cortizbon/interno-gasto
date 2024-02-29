@@ -27,13 +27,8 @@ fig = px.sunburst(tdd, path=[px.Constant('PGN'),
                       color='sector_code')
 st.plotly_chart(fig)
 
-csv = convert_df(tdd)
 
-st.download_button(
-                label="Descargar datos desagregados - 2023",
-                data=csv,
-                file_name='datos_desagregados_2024.csv',
-                mime='text/csv')
+
 
 
 st.subheader('Desagregados 2024')
@@ -47,11 +42,7 @@ fig = px.sunburst(tdd, path=[px.Constant('PGN'),
                       color='sector_code')
 st.plotly_chart(fig)
 
-csv = convert_df(tdd)
 
-st.download_button(
-                label="Descargar datos desagregados - 2024",
-                data=csv,
-                file_name='datos_desagregados_2024.csv',
-                mime='text/csv')
+
+
 
