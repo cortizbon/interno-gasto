@@ -9,7 +9,7 @@ from io import BytesIO
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
-from utils import DIC_COLORES, convert_df, get_dic_colors, get_dic_colors_area
+
 
 
 st.title('Herramienta interna PGN')
